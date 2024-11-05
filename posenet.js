@@ -23,6 +23,7 @@ function setup() {
   
   // Hide the video element, and just show the canvas
   video.hide();
+  video.show();
   noLoop();
 }
 

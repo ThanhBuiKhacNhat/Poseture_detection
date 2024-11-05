@@ -260,3 +260,9 @@ img {
     font-size: 18px;
   }
 }
+
+.textblock ul li::marker {
+  content: "✔ "; /* Thay thế dấu đầu dòng bằng dấu kiểm */
+  color: green; /* Đổi màu thành xanh lá */
+  font-size: 18px; /* Kích thước phù hợp */
+}
